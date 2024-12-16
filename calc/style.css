@@ -1,0 +1,36 @@
+#container{
+   justify-items: center;
+   align-items: center;
+}
+
+#calccontainer{
+    border: 1px solid black;
+    width: 390px;
+    padding: 30px;
+    border-radius: 10%;
+    background-color: violet;
+
+    
+}
+
+#calccontainer input{
+    width: 295px;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 25px;
+    text-align: right;
+    
+}
+
+#calccontainer button{
+    padding: 15px;
+    margin: 15px;
+    width: 60px;
+    background-color: beige;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: 700;
+}

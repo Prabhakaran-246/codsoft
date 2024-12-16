@@ -1,0 +1,65 @@
+body{
+    background-color: beige;
+}
+
+#headerlist{
+    list-style: none;
+    display: inline-flex;
+}
+#listitems a{
+    margin-right: 40px;
+    font-size: larger;
+    font-family:'Georgia';
+    color: beige;
+    text-decoration: none;
+    
+}
+#navbar{
+    background-color: rgb(27, 0, 96);
+    height: 80px;
+}
+#h1{
+    margin: 50px 50px;
+    color: rgb(0, 0, 49);
+}
+
+#home{
+    background-image: url(images/front.jpg);
+    background-size: cover;
+}
+#footer{
+    background-color: rgb(16, 1, 55);
+    color: beige;
+    font-size: small;
+    padding: 5px;
+}
+
+#front{
+    width: 500px;
+    font-size: large;
+    font-weight: 300;
+    margin-left: 50px;
+    color:  rgb(0, 0, 7);
+    position: relative;
+    bottom: -60px;
+}
+
+#button{
+    padding: 10px;
+    background-color:rgb(1, 6, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: bisque;
+    border-radius: 10px;
+}
+
+#social a{
+    font-size: larger;
+    margin: 10px;
+
+}
+
+#social{
+    margin-top: 30px;
+
+}

@@ -1,0 +1,120 @@
+
+
+#headerlist{
+    list-style: none;
+    display: inline-flex;
+}
+#listitems a{
+    margin-right: 40px;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 100;
+    
+}
+#navbar{
+    background-color: rgb(47, 47, 47);
+}
+
+#aboutcontainer{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    
+}
+
+#skillcard{
+    width:200px;
+    height: 300px;
+    padding: 20px;
+    color: rgb(12, 12, 12);
+    margin: 50px;
+    
+}
+#skillcard img{
+  width: 150px;
+  height: 200px;
+  display: block;
+}
+
+#skillcard p{
+    font-size:medium;
+    justify-items: center;
+  }
+
+#skillcontainer{
+    display: flex;
+    flex-wrap: wrap ;
+
+}
+
+#projcard{
+    width:60%;
+    padding: 20px;
+    color: rgb(12, 12, 12);
+    margin: 20px;
+    justify-items: center;
+    
+}
+
+#projcard img {
+    width: 80%;
+    display: block;
+    margin: 50px;
+  }
+
+#projcontainer{
+    margin: 50px;
+    justify-items: center;
+
+}
+
+#projcard p {
+    font-size: larger;
+}
+
+#formcard input{
+
+    padding: 10px;
+    margin: 10px;
+    width: 60%;
+    border-radius: 5px;
+    
+    
+}
+
+#formcard{
+    width: 60%;
+    
+    
+    
+}
+
+#formcontainer{
+    width: 100%;
+    margin: 50px;
+    justify-items: center;
+    font-size: large;
+
+}
+
+#h1{
+    margin: 50px 50px;
+    color: rgb(0, 0, 49);
+}
+
+#home{
+    background-image: url(img1.webp);
+    background-size: cover;
+    opacity: 80%;
+}
+#footer{
+    height: 300px;
+    background-color: rgba(59, 58, 58, 0.975);
+    color: beige;
+    font-size: large;
+    padding: 50px;
+}
